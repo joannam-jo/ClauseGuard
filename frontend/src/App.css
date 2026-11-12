@@ -1,0 +1,119 @@
+/* Finance Agreement Analyzer - App Styles */
+
+/* Gradient background for hero */
+.hero-gradient {
+  background: radial-gradient(1200px circle at 15% 10%, rgba(56,189,248,0.12), transparent 55%),
+              radial-gradient(900px circle at 85% 20%, rgba(14,116,144,0.10), transparent 60%);
+}
+
+/* Card shadows */
+.card-shadow {
+  box-shadow: 0 1px 0 rgba(15,23,42,0.04), 0 8px 24px rgba(15,23,42,0.06);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 1px 0 rgba(15,23,42,0.06), 0 16px 40px rgba(15,23,42,0.10);
+}
+
+/* Focus ring */
+.focus-ring {
+  box-shadow: 0 0 0 3px rgba(56,189,248,0.35);
+}
+
+/* Button press effect */
+.btn-press:active {
+  transform: scale(0.98);
+}
+
+/* Dropzone styles */
+.dropzone {
+  @apply border-2 border-dashed border-border rounded-xl p-8 transition-colors duration-150;
+}
+
+.dropzone-active {
+  @apply border-primary bg-accent/50;
+}
+
+/* Chat message styles */
+.chat-user {
+  @apply bg-primary text-primary-foreground rounded-2xl rounded-br-md;
+}
+
+.chat-assistant {
+  @apply bg-muted text-foreground rounded-2xl rounded-bl-md border;
+}
+
+/* Markdown content styling */
+.markdown-content h1 {
+  @apply text-2xl font-semibold mt-4 mb-2;
+}
+
+.markdown-content h2 {
+  @apply text-xl font-semibold mt-4 mb-2;
+}
+
+.markdown-content h3 {
+  @apply text-lg font-semibold mt-3 mb-2;
+}
+
+.markdown-content p {
+  @apply mb-3 leading-relaxed;
+}
+
+.markdown-content ul {
+  @apply list-disc pl-5 mb-3 space-y-1;
+}
+
+.markdown-content ol {
+  @apply list-decimal pl-5 mb-3 space-y-1;
+}
+
+.markdown-content code {
+  @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+.markdown-content pre {
+  @apply bg-muted p-4 rounded-lg overflow-x-auto mb-3;
+}
+
+.markdown-content pre code {
+  @apply bg-transparent p-0;
+}
+
+.markdown-content blockquote {
+  @apply border-l-4 border-primary pl-4 italic my-4;
+}
+
+.markdown-content strong {
+  @apply font-semibold;
+}
+
+/* Loading skeleton pulse */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 0%,
+    hsl(var(--muted) / 0.5) 50%,
+    hsl(var(--muted)) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Table styles */
+.clause-table tr {
+  @apply cursor-pointer transition-colors hover:bg-muted/60;
+}
+
+.clause-table tr.selected {
+  @apply bg-accent/40 ring-2 ring-ring;
+}

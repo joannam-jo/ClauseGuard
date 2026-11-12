@@ -1,0 +1,40 @@
+{
+  "accuracy": 0.9166666666666666,
+  "cv_mean": 0.9499999999999998,
+  "cv_std": 1.1102230246251565e-16,
+  "train_size": 48,
+  "test_size": 12,
+  "report": {
+    "credit_card": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "lease": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "loan": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "accuracy": 0.9166666666666666,
+    "macro avg": {
+      "precision": 0.9333333333333332,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9153439153439153,
+      "support": 12.0
+    },
+    "weighted avg": {
+      "precision": 0.9333333333333332,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9153439153439153,
+      "support": 12.0
+    }
+  }
+}

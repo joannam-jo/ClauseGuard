@@ -1,0 +1,4 @@
+targetGroups=2
+coloredPathsTrapped=8311
+whitePathsSkipped=0
+strokeWidthPt=0.6

@@ -1,0 +1,6 @@
+source=C:\Users\joann\Downloads\FINALL pouch design(1).ai
+output=C:\Users\joann\Downloads\ClauseGaurd-main\FINALL pouch design(1) - vector gaps fixed.ai
+groupsTouched=2
+coloredPathsRepaired=8311
+whitePathsSkipped=0
+strokeWidthPt=1.2-1.6

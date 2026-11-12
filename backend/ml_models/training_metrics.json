@@ -1,0 +1,89 @@
+{
+  "clause_classifier": {
+    "accuracy": 0.6666666666666666,
+    "cv_mean": 0.7333333333333334,
+    "cv_std": 0.15071844406945042,
+    "train_size": 72,
+    "test_size": 18,
+    "report": {
+      "beneficial": {
+        "precision": 0.6153846153846154,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.7272727272727273,
+        "support": 9.0
+      },
+      "harmful": {
+        "precision": 0.8,
+        "recall": 0.4444444444444444,
+        "f1-score": 0.5714285714285714,
+        "support": 9.0
+      },
+      "accuracy": 0.6666666666666666,
+      "macro avg": {
+        "precision": 0.7076923076923077,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6493506493506493,
+        "support": 18.0
+      },
+      "weighted avg": {
+        "precision": 0.7076923076923077,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6493506493506493,
+        "support": 18.0
+      }
+    }
+  },
+  "risk_scorer": {
+    "mse": 5.5013235410726615,
+    "rmse": 2.345490042842361,
+    "r2": 0.4491876306218967,
+    "train_size": 35,
+    "test_size": 9
+  },
+  "document_classifier": {
+    "accuracy": 0.9166666666666666,
+    "cv_mean": 0.9499999999999998,
+    "cv_std": 1.1102230246251565e-16,
+    "train_size": 48,
+    "test_size": 12,
+    "report": {
+      "credit_card": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "lease": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "loan": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "accuracy": 0.9166666666666666,
+      "macro avg": {
+        "precision": 0.9333333333333332,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439153,
+        "support": 12.0
+      },
+      "weighted avg": {
+        "precision": 0.9333333333333332,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439153,
+        "support": 12.0
+      }
+    }
+  },
+  "timestamp": "2026-06-16T00:37:09.152945",
+  "training_data_sizes": {
+    "clause_classifier": 90,
+    "risk_scorer": 44,
+    "document_classifier": 60
+  }
+}

@@ -1,0 +1,4 @@
+groups=2
+pathsPrepared=8311
+strokeExpandedPt=1.5
+pathfinder=Merge
